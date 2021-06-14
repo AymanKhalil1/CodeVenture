@@ -1,176 +1,469 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>CodeVenture Courses</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+  <head>
+    <title>CodeVenture Courses</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel = "stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="jumbotron">
+          <img id = "top-banner-img" src="images/banner.jpg" class="col-sm-12 col-lg-12 col-md-12 col-xs-12">
+        </div>
+      </div>
+      <div class="row">
+      <div class="jumbotron col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h1>Our Courses</h1>
+        <p>
+          These are all the courses we currently offer. Click (or tap) on the
+          course name to reveal detailed information.
+        </p>
+        <p>
+          Please note that not all courses shown here will be running at every
+          given point in time. For continuous updates on what courses are
+          currently running, make sure you join our Facebook group, available
+          <a href="https://www.facebook.com/groups/CodeVenture">here</a>.
+        </p>
+      </div>
+      </div>
 
-
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
-<body>
-	<div class="container-fluid">
-		
-			<div class="jumbotron" id="jumbotron-header">
-				<img id="header-img" class="img-responsive" src="images/banner.jpg">
-
-		
-		</div>
-		<h1>Our courses</h1>
-		<p>Here is a list of all the courses that we offer. Please note that some of these courses may be available at the moment, and some may not.</p>
-		<div class="panel-group" id="courses-accordion">
-			<div class="panel panel-default">
-				<div class="panel-heading">
-					<h3 class="panel-title">
-						<a data-toggle = "collapse" data-parent = "#courses-accordion" href="#d101-collapsible">Young Dragons Level 1</a>
-					</h3>
-				</div>
-				<div id="d101-collapsible" class="panel-collapse collapse">
-					<div class="panel-body">
-						<img src="" class="img-responsive">
-						<h4>Course Name:</h4>
-						<p>Young Dragons: Level 1</p>
-						<h4>Category:</h4>
-						<p>Young Dragons</p>
-						<h4>Recommended Age</h4>
-						<p>5-8  years old</p>
-						<h4>Duration</h4>
-						<p>3 Hours (4*45 mins)</p>
-						<h4>Course Summary:</h4>
-						<p>This is a novice level course for children of ages 5-8. The course utilizes a block based programming platform, <a href="https://www.scratchjr.org/" target="_blank">ScratchJr</a>, and gets fresh students familiarized with its basic controls through simple animations.
-						</p>
-						<h4>Requirements:</h4>
-						<ul>
-							<li>Coding Setup:</li>
-							<ul><li>Android Tablet / Apple iPad.</li><li>ScratchJr app. (free)</li></ul>
-							<li>Lesson Setup:</li>
-							<ul>
-								<li>A computer running Zoom.</li>
-								<li>Microphone.</li>
-								<li>Speakers.</li>
-								<li>Headphones. (Optional)</li>
-								<li>Webcam. (Optional)</li>
-
-							</ul>
-							<li>Other Requirements:</li>
-							<ul><li>A parent/guardian needs to be <u>present</u> during the online lessons.</li></ul>
-							<li>Prerequisites:</li>
-							<ul><li>No prior coding exposure required</li></ul>
-						</ul>
-						<img id="scratchjr1-1" src="images/scratchjr1-1.JPG" class="img-responsive col-sm-12 col-md-4 img-thumbnail">
-						<img id="scratchjr1-2" src="images/scratchjr1-2.JPG" class="img-responsive col-sm-12 col-md-4 img-thumbnail">
-						<img id="scratchjr1-3" src="images/scratchjr1-3.JPG" class="img-responsive col-sm-12 col-md-4 img-thumbnail">
-
-
-					</div>
-
-				</div>
-
-			</div><!-- end young dragons level 1 section -->
-
-			<div class="panel panel-default"><!-- start young dragons level 2 -->
-				<div class="panel-heading">
-					<h3 class="panel-title">
-						<a data-toggle = "collapse" data-parent="#courses-accordion" href="#d102-collapsible">Young Dragons Level 2</a>
-
-					</h3>
-				</div>
-				<div id="d102-collapsible" class="panel-collapse collapse">
-					<div class="panel-body">
-						<h4>Course Name:</h4>
-						<p>Young Dragons: Level 2</p>
-						<h4>Category</h4>
-						<p>Young Dragons</p>
-						<h4>Recommended Age:</h4>
-						<p>5-8 years old</p>
-						<h4>Duration</h4>
-						<p>3 Hours (4 * 45 mins)</p>
-						<h4>Course Summary</h4>
-						<p>Continues building up on what students learned in level 1. <a href="https://www.scratchjr.org/" target="_blank">ScratchJr</a> is used to introduce basic programming concepts like program flow, loops, and events in a non-technical way, through application in more animation projects, stories, and games.</p>
-						<h4>Requirements:</h4>
-						<ul>
-							<li>Coding Setup:</li>
-							<ul><li>Android Tablet / Apple iPad.</li><li>ScratchJr app. (free)</li></ul>
-							<li>Lesson Setup:</li>
-							<ul>
-								<li>A computer running Zoom.</li>
-								<li>Microphone.</li>
-								<li>Speakers.</li>
-								<li>Headphones. (Optional)</li>
-								<li>Webcam. (Optional)</li>
-
-							</ul>
-							<li>Other Requirements:</li>
-							<ul><li>A parent/guardian needs to be <u>present</u> during the online lessons.</li></ul>
-							<li>Prerequisites:</li>
-							<ul><li><strong>Young Dragons : Level 1</strong></li></ul>
-						</ul>
-						
-					</div>
-					
-				</div>
-
-
-			</div><!-- end young dragons level 2  -->
-			<div class="panel panel-default"><!-- start flying eagles level 1 -->
-				<div class="panel-heading">
-
-					<h3 class="panel-title">
-						<a data-toggle = "collapse" data-parent = "#courses-accordion" href="#e101-collapsible">Flying Eagles level 1</a>
-
-					</h3>
-
-				</div>
-
-				<div id="e101-collapsible" class="panel-collapse collapse">
-					<div class="panel-body">
-						<h4>Course Name:</h4>
-						<p>Flying Eagles: Level 1</p>
-						<h4>Category</h4>
-						<p>Flying Eagles</p>
-						<h4>Recommended Age:</h4>
-						<p>9-12 years old</p>
-						<h4>Duration:</h4>
-						<p>8 Hours (8 * 60 mins)</p>
-						<h4>Course Summary:</h4>
-						<p>This is a novice level course for children of ages 9-12. It introduces basic programming concepts, including variables, flow control, loops, and lists. The programming language used is Python. The course also demonstrates the application of some of these concepts through the use of the Turtle graphics Module in Python.</p>
-						<h4>Requirements:</h4>
-						<ul>
-							<li>Coding Setup:</li>
-							<ul>
-								<li>PC running Microsoft Windows (Recommended) / Mac OS / Linux</li>
-								<li>Python 3</li>
-
-							</ul>
-							<li>Lesson Setup:</li>
-							<ul>
-								<li>A computer running Zoom.</li>
-								<li>Microphone.</li>
-								<li>Speakers.</li>
-								<li>Headphones. (Optional)</li>
-								<li>Webcam. (Optional)</li>
-
-							</ul>
-							<li>Other Requirements:</li>
-							<ul><li>A parent/guardian needs to be <u>reachable</u> during the online lessons.</li></ul>
-							<li>Prerequisites</li>
-							<ul><li>No prior coding exposure required</li></ul>
-						</ul>
-					</div>
-
-				</div>
-
-			</div><!-- end flying eagles level 1 -->
-		</div><!-- end courses accordion -->
-	</div><!-- end container fluid div -->
-
-</body>
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a
+                data-toggle="collapse"
+                data-parent="#accordion"
+                href="#collapse1"
+              >
+                Young Dragons - Level 1 : ScratchJr</a
+              >
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse">
+            <div class="panel-body">
+              <h4>Recommended age:</h4>
+              <p>5-8 years old</p>
+              <h4>Duration:</h4>
+              <p>3 Hours (4 * 45 minutes)</p>
+              <h4>Course Summary:</h4>
+              <p>
+                This is a novice level course for children of ages 5-8. The
+                course utilizes a block based programming platform,
+                <a href="https://www.scratchjr.org/">ScratchJr</a>, and gets
+                fresh students familiarized with its basic controls through
+                simple animations.
+              </p>
+              <h4>Requirements</h4>
+              <ul>
+                <li>
+                  Coding Setup:
+                  <ul>
+                    <li>Android Tablet / Apple iPad.</li>
+                    <li>ScratchJr app(free)</li>
+                  </ul>
+                </li>
+                <li>
+                  Lesson Setup:
+                  <ul>
+                    <li>A computer running Zoom</li>
+                    <li>Microphone</li>
+                    <li>Speakers</li>
+                    <li>Headphones(optional)</li>
+                    <li>Webcam(optional)</li>
+                  </ul>
+                </li>
+                <li>
+                  Other Requirements
+                  <ul>
+                    <li>
+                      A parent/guardian needs to be <u>present</u> during the
+                      online sessions.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  Prerequisites:
+                  <ul>
+                    <li>No prior coding experience required</li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="row">
+                <img src="images/scratchjr1-1.jpg" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <img src="images/scratchjr1-2.JPG" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <img src="images/scratchjr1-3.JPG" class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a
+                data-toggle="collapse"
+                data-parent="#accordion"
+                href="#collapse2"
+              >
+                Young Dragons - Level 2 : ScratchJr</a
+              >
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">
+              <h4>Recommended age:</h4>
+              <p>5-8 years old</p>
+              <h4>Duration</h4>
+              <p>3 Hours (4 * 45 minutes)</p>
+              <h4>Course Summary:</h4>
+              <p>
+                Continues building up on what students learned in level 1.
+                ScratchJr is used to introduce basic programming concepts like
+                program flow, loops, and events in a non-technical way, through
+                application in more animation projects, stories, and games.
+              </p>
+              <h4>Requirements</h4>
+              <ul>
+                <li>
+                  Coding Setup:
+                  <ul>
+                    <li>Android Tablet / Apple iPad.</li>
+                    <li>ScratchJr app(free)</li>
+                  </ul>
+                </li>
+                <li>
+                  Lesson Setup:
+                  <ul>
+                    <li>A computer running Zoom</li>
+                    <li>Microphone</li>
+                    <li>Speakers</li>
+                    <li>Headphones(optional)</li>
+                    <li>Webcam(optional)</li>
+                  </ul>
+                </li>
+                <li>
+                  Other Requirements
+                  <ul>
+                    <li>
+                      A parent/guardian needs to be <u>present</u> during the
+                      online sessions.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  Prerequisites:
+                  <ul>
+                    <li>Young Dragons - Level 1</li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="row">
+                <img src="images/scratchjr2-1.jpg" class="col-lg-3">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a
+                data-toggle="collapse"
+                data-parent="#accordion"
+                href="#collapse3"
+              >
+                Smart Kangaroos - Level 1 : Scratch</a
+              >
+            </h4>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse">
+            <div class="panel-body">
+              <h4>Recommended age:</h4>
+              <ul>
+                <li><u>New Student</u>: 8-9 years.</li>
+                <li><u>Young Dragons - Level 2 graduate</u>: any age.</li>
+              </ul>
+              <h4>Duration</h4>
+              <p>6 Hours (6 * 60 minutes)</p>
+              <h4>Course Summary:</h4>
+              <p>
+                This is a novice level course that aims to teach children basic
+                programming concepts using the versatile and entertaining
+                Scratch platform. All the concepts are eventually applied into
+                making an easy video game.
+              </p>
+              <h4>Requirements</h4>
+              <ul>
+                <li>
+                  Coding Setup:
+                  <ul>
+                    <li>
+                      A computer running Windows (recommended) or MacOS, with a
+                      web browser installed.
+                    </li>
+                    <li>
+                      A free Scratch account is <u>required</u> for this course.
+                      Sign up on the official
+                      <a href="https://scratch.mit.edu/"
+                        >Scratch platform website</a
+                      >. Click the Join Scratch link at the top of the page.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  Lesson Setup:
+                  <ul>
+                    <li>A computer running Zoom</li>
+                    <li>Microphone</li>
+                    <li>Speakers</li>
+                    <li>Headphones(optional)</li>
+                    <li>Webcam(optional)</li>
+                  </ul>
+                </li>
+                <li>
+                  Other Requirements
+                  <ul>
+                    <li>
+                      A parent/guardian needs to be <u>reachable</u> during the
+                      online sessions.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  Prerequisites:
+                  <ul>
+                    <li>
+                      Some computer skills are needed: web browsing, switching
+                      between active windows, typing on the keyboard, using the
+                      mouse.
+                    </li>
+                    <li>No prior coding knowledge is required.</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a
+                data-toggle="collapse"
+                data-parent="#accordion"
+                href="#collapse4"
+              >
+                Flying Eagles Level 1 : Python</a
+              >
+            </h4>
+          </div>
+          <div id="collapse4" class="panel-collapse collapse">
+            <div class="panel-body">
+              <h4>Recommended age:</h4>
+              <p>10-12 years old</p>
+              <h4>Duration</h4>
+              <p>8 Hours (8 * 60 minutes)</p>
+              <h4>Course Summary:</h4>
+              <p>
+                This is a novice level course for children of ages 10-12. It
+                introduces basic programming concepts, including variables, flow
+                control, loops, and lists. The programming language used is
+                Python. The course also demonstrates the application of some of
+                these concepts through the use of the Turtle graphics Module in
+                Python.
+              </p>
+              <h4>Requirements</h4>
+              <ul>
+                <li>
+                  Coding Setup:
+                  <ul>
+                    <li>
+                      A computer running Microsoft Windows (recommended) / MacOS
+                    </li>
+                    <li>Python 3</li>
+                  </ul>
+                </li>
+                <li>
+                  Lesson Setup:
+                  <ul>
+                    <li>A computer running Zoom</li>
+                    <li>Microphone</li>
+                    <li>Speakers / headphones</li>
+                    <li>Webcam(optional)</li>
+                  </ul>
+                </li>
+                <li>
+                  Other Requirements
+                  <ul>
+                    <li>
+                      A parent/guardian needs to be <u>reachable</u> during the
+                      online sessions.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  Prerequisites:
+                  <ul>
+                    <li>
+                      Some computer skills are needed: web browsing, switching
+                      between active windows, typing on the keyboard, using the
+                      mouse.
+                    </li>
+                    <li>No prior coding experience required</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a
+                data-toggle="collapse"
+                data-parent="#accordion"
+                href="#collapse5"
+              >
+                Flying Eagles - Level 2 : Python</a
+              >
+            </h4>
+          </div>
+          <div id="collapse5" class="panel-collapse collapse">
+            <div class="panel-body">
+              <h4>Recommended age:</h4>
+              <p>10-12 years old</p>
+              <h4>Duration</h4>
+              <p>7 Hours (7 * 60 minutes)</p>
+              <h4>Course Summary:</h4>
+              <p>
+                This is an intermediate level course for students of ages 10-12
+                years old. The course introduces more advanced programming
+                concepts to get students familiarized with the structures of
+                real life programs. Functions and Object Oriented Programming
+                are among the concepts explored throughout the course. Finally,
+                students are led in an instructor walkthrough to make a video
+                game, in the style of the classic video game 'Pong', using the
+                Pygame module.
+              </p>
+              <h4>Requirements</h4>
+              <ul>
+                <li>
+                  Coding Setup:
+                  <ul>
+                    <li>
+                      A computer running Microsoft Windows (recommended) / MacOS
+                    </li>
+                    <li>Python 3</li>
+                  </ul>
+                </li>
+                <li>
+                  Lesson Setup:
+                  <ul>
+                    <li>A computer running Zoom</li>
+                    <li>Microphone</li>
+                    <li>Speakers / headphones</li>
+                    <li>Webcam(optional)</li>
+                  </ul>
+                </li>
+                <li>
+                  Other Requirements
+                  <ul>
+                    <li>
+                      A parent/guardian needs to be <u>reachable</u> during the
+                      online sessions.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  Prerequisites:
+                  <ul>
+                    <li>
+                      Student must have
+                      <u
+                        >successfully completed the Flying Eagles - Level 1
+                        course.</u
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a
+                data-toggle="collapse"
+                data-parent="#accordion"
+                href="#collapse6"
+              >
+                Wise Turtles - Level 1 : Python</a
+              >
+            </h4>
+          </div>
+          <div id="collapse6" class="panel-collapse collapse">
+            <div class="panel-body">
+              <h4>Recommended age:</h4>
+              <p>13-15 years old</p>
+              <h4>Duration</h4>
+              <p>9 Hours (6 * 90 minutes)</p>
+              <h4>Course Summary:</h4>
+              <p>
+                This is a novice level course for children of ages 13-15. It
+                introduces basic programming concepts, including variables, flow
+                control, loops, and lists. The programming language used is
+                Python. The course also demonstrates the application of some of
+                these concepts through the use of the Turtle graphics Module in
+                Python.
+              </p>
+              <h4>Requirements</h4>
+              <ul>
+                <li>
+                  Coding Setup:
+                  <ul>
+                    <li>
+                      A computer running Microsoft Windows (recommended) / MacOS
+                    </li>
+                    <li>Python 3</li>
+                  </ul>
+                </li>
+                <li>
+                  Lesson Setup:
+                  <ul>
+                    <li>A computer running Zoom</li>
+                    <li>Microphone</li>
+                    <li>Speakers / headphones</li>
+                    <li>Webcam(optional)</li>
+                  </ul>
+                </li>
+                <li>
+                  Other Requirements
+                  <ul>
+                    <li>
+                      A parent/guardian needs to be <u>reachable</u> during the
+                      online sessions.
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  Prerequisites:
+                  <ul>
+                    <li>No prior coding experience required</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
